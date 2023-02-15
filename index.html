@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="grad">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+
+<body class="grad">
+    <nav>
+        <h1>To Do List!!</h1>
+        <h3>What's on your Mind today?</h3>
+    </nav>
+
+    <main>
+        <div class="base">
+            <div class="default">
+                <p>Tasks</p>
+                <hr>
+                <li class="remand"><b>List to be displayed here!</b> </li>
+                <div id="ad">
+                    <ul id="addItems"></ul>
+                </div>
+            </div>
+
+            <div>
+                <button class="addBtn">Add Task </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="overlay">
+        <div class="popInp">
+            <h2 class="enterBg">Enter your task</h2>
+            <input class="getTask" type="text" required placeholder="Enter Task">
+            <div>
+                <button id="addT">Add</button>
+                <button id="canT">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
